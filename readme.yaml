@@ -1,0 +1,38 @@
+Dataset:
+  Download the dataset from the website:
+    http://flavia.sourceforge.net/
+
+The project includes 2 files:
+1. features.py
+2. classifier.py
+
+classifier.py classify the leaves into one of the 32 species
+
+functions prototye
+
+def preprocess()
+def PNN(X_train, X_test, y_train, y_test,X_dummy)
+def SVM(X_train, X_test, y_train, y_test,X_dummy)
+def ANN(X_train, X_test, y_train, y_test,X_dummy)
+def dummy_data()
+
+names of the prototye are self-explanatory
+
+environment used:
+  OS Used: Windows 10 (64 bit)
+  Language: python 2.7
+  Environment: conda 4.5.11
+  libraries:
+    OS  
+    string
+    numpy
+    pandas
+    scikit-learn
+    neupy
+
+To classify run command on cmd:
+    1. python classifier.py
+    2. Input the name of the classifier you want to train,
+    enter either ANN or SVM or PNN (input is case sensitive)
+    3. results of the classification on flavia and dummy dataset 
+       will be shown
